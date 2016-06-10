@@ -18,5 +18,12 @@ public class MergeSortTest {
 
   }
 
+  public void Test3() {
+    int[] arr = [ 3 3 1 90 42 3 18 7 12];
+    MergeSort.mergeSort(arr);
+  }
+
+
+
 
 }

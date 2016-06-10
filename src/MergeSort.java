@@ -7,17 +7,26 @@ import java.util.Arrays;
 public class MergeSort {
 
   public static void main(String[] args) {
-    int[] arr = {5, 6, 2, 1, 4, 9, 12};
-    System.out.println("input: " + Arrays.toString(arr));
-    mergeSort(arr);
-    System.out.println("output: " + Arrays.toString(arr));
+    int[] arr0 = {5, 6, 2, 1, 4, 9, 12};
+    System.out.println("input: " + Arrays.toString(arr0));
+    mergeSort(arr0);
+    System.out.println("output: " + Arrays.toString(arr0));
 
     System.out.println("");
 
-    int[] newArr = {};
-    System.out.println("input: "+Arrays.toString(newArr));
-    MergeSort.mergeSort(newArr);
-    System.out.println("output: "+Arrays.toString(newArr));
+    int[] arr1 = {};
+    System.out.println("input: "+Arrays.toString(arr1));
+    MergeSort.mergeSort(arr1);
+    System.out.println("output: "+Arrays.toString(arr1));
+
+    System.out.println("");
+
+    int[] arr2 = {3, 3, 1, 90, 42, 3, 18, 7, 12 };
+    System.out.println("input: " + Arrays.toString(arr2));
+    mergeSort(arr2);
+    System.out.println("output: " + Arrays.toString(arr2));
+
+    System.out.println("");
 
   }
 
